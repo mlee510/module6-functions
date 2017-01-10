@@ -1,21 +1,24 @@
 # Exercise-3: Calling built-in functions
 
 # Create a variable `my.name` that contains your name
-
+my.name<- "Michelle"
 
 # Create a variable `name.length` that holds how many letters are in your name (use the `nchars()` function)
-
-
+nchar("Michelle")
+name.length <- nchar("Michelle")
 # Print the number of letters in your name
 
+print("8")
 
 # Create a variable `now.doing` that is your named followed by "is programming!" to the end of your name
 # (use the `paste()` function)
 
+now.doing <- paste(my.name, "is programming")
 
+now.doing
 # Make the `now.doing` variable upper case
 
-
+toupper("now.doing")
 ### Bonus
 
 # Pick two of your favorite numbers (between 1 and 100) and assign them to `fav.1` and `fav.2`
